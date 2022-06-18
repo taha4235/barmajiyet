@@ -1,0 +1,8 @@
+firrst pip install requests
+from requests import get
+import re
+url = input("enter url web:")
+taha = go(url).text
+email = re.findall("\S+@\S+",taha)
+for i in email:
+    print(i)

@@ -1,0 +1,4 @@
+from selenuim import webdriver
+browser = webdriver.chrome("masar")
+browser.get("https:\\www.taha.net")
+search = browser.find-element_by_id("usrname")

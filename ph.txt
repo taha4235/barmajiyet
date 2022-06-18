@@ -1,0 +1,6 @@
+import re
+phone="11112334566";
+fi = re.findall(r"[]{}[]{}[]{}")
+fi = re.findall(r"[\d]{3}[\d]{3}[\d]{3}",phone)
+for i in fi:
+    print(i)

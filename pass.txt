@@ -1,0 +1,5 @@
+#pip install whois-python
+import whois
+url = input("enter site name:")
+getinfo = whois.whois(url)
+print(getinfo)

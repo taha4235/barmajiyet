@@ -1,0 +1,5 @@
+import re #pip install re
+info="email:tahakourani882gmail.con"
+res = re.findall("\S+@\S+",info)
+for x in res:
+	print(x)

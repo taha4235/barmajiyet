@@ -1,0 +1,7 @@
+import re
+emails=""
+emails=""
+re.findall("\S+@\S+",emails)
+for x in c:
+     print(i)
+print(emails)

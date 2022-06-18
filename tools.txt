@@ -1,0 +1,10 @@
+from requests import get
+#from requets import get
+from selenium import webdriver
+import re
+taha = webdriver.Chrome("")
+dri.get("https:\\www.google.com")
+go = taha.page_source
+phone = re.findall(r"[\d]{3}[\d]{3}[\d]{3}",go);
+for i in phone:
+    print(i)
